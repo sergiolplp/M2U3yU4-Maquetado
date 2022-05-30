@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -13,8 +12,8 @@
 </head>
 
 <body>
-    <!-- barra de navegación -->
-    <nav class="navbar navbar-expand-lg bg-dark text-white mb-5" id="navbar">
+    <!-- Primer barra de navegación -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark text-white mb-5" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand text-white fs-3" href="#">Cristian Garmendia Coach</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -22,22 +21,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Misión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Testimonios</a>
-                    </li>
-                </ul>
-
+            
                     <!-- Íconos redes sociales -->
                     <div class="collapse navbar-collapse class-links" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -73,11 +57,33 @@
         </div>
     </nav>
 
+
 <!-- sobre mi -->
 <div class="container-fluid">
-<img src="./src/cris-sobremi - copia.jpg"  class="d-block rounded img-fluid mx-auto" alt="Cristian Garmendia">
-<p class="position-absolute top-50 start-50 translate-middle fst-italic text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quas asperiores magni aliquam tempore? Ad repellendus quam tenetur minus maiores aspernatur eligendi qui aut possimus. Tenetur nemo accusamus necessitatibus quos?</p>
-</div>
+<p class="sobremi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi quibusdam, molestias praesentium delectus ipsam dolorum ipsa accusamus fugiat tempora cupiditate omnis obcaecati adipisci iure. Quas maiores est vel dignissimos.</p>
+
+        <!-- Segunda barra de navegación -->
+
+    <nav class="navbar sticky-top-2 navbar-expand-lg bg-dark text-white mb-5" id="navbar">
+      <div class="container-fluid">
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Misión</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Sobre mi</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Testimonios</a>
+                      </li>
+                  </ul>
+                  </nav>
+
+
 
 <!-- Testimonios Carrusel-->
 
@@ -128,41 +134,41 @@
   <div class="row">
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Europa en 10 dias!</h5>
-          <p class="card-text">Viaje por los ciudades más impactantes del viejo continente.</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+        <img src="./src/altorendimiento.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Equipo de alto rendimiento</h5>
+          <p class="card-text">Claves para el desarrollo de un equipo perfecto.</p>
+          <a href="#" class="btn btn-primary">Vivos de Instagram</a>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Europa en 10 dias!</h5>
-          <p class="card-text">Viaje por los ciudades más impactantes del viejo continente.</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+        <img src="./src/autoestima.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Autoestima conciente</h5>
+          <p class="card-text">Claves para aprender a relacionarme con los errores</p>
+          <a href="#" class="btn btn-primary">Vivos de Instagram</a>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">14 días a la mar</h5>
+        <img src="./src/lideres.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Entrenando líderes</h5>
+          <p class="card-text">Todo lo que necesitarías saber para el desarrollo</p>
+          <a href="#" class="btn btn-primary">Vivos de Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="./src/inteligenciaemocional.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Inteligencia emocional</h5>
           <p class="card-text">Tus vacaciones en un Crucero totalmente equipado.</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">14 días a la mar</h5>
-          <p class="card-text">Tus vacaciones en un Crucero totalmente equipado.</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="#" class="btn btn-primary">Vivos de Instagram</a>
         </div>
       </div>
     </div>

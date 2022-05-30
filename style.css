@@ -1,4 +1,25 @@
 body{
     background-color: gray;
-    : ;
+}
+
+/* BARRA DE NAVEGACION */
+
+.sticky-top-2{
+position: -webkit-sticky;
+position: sticky;
+top: 68px;
+z-index: 1030;
+}
+
+/* SOBRE MI */
+
+
+.sobremi{
+    background-image: url(./src/sobremi.jpg);
+    height: 350px;
+}
+
+.card-img-top{
+height: 200px;
+width: 280px;
 }
