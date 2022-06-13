@@ -1,15 +1,48 @@
-body{
-    background-color: gray;
-}
+
 
 /* BARRA DE NAVEGACION */
 
-.sticky-top-2{
-position: -webkit-sticky;
-position: sticky;
-top: 68px;
-z-index: 1030;
+
+.navbar{
+    background-color: #000;
+    padding: 0px;
 }
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #DC7633;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+ul{
+width: 50%;
+justify-content: center;
+color: #fff;
+}
+
+span{
+    background-color: #000;
+    color: #DC7633;
+}
+
+/* Buscador */
+
+.boton{
+    background-color: #000;
+    color: #DC7633;
+    border-color: #DC7633;
+}
+
+.boton:hover{
+    background-color: #DC7633;
+    border-color: #DC7633;
+    color: #fff;
+}
+
+form:focus-within{
+    box-shadow: #DC7633;
+}
+
 
 /* SOBRE MI */
 
