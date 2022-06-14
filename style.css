@@ -44,15 +44,17 @@ form:focus-within{
 }
 
 
-/* SOBRE MI */
+/* PRESENTACIÓN */
 
-
-.sobremi{
-    background-image: url(./src/sobremi.jpg);
-    height: 350px;
+.presentacion{
+background: url(./Recursos/IMG/img-sobremi/CristianGarmendia.jpg) no-repeat;
+background-size: cover;
+height: 100%;
+min-height: 700px;
+color: #fff;
 }
 
-.card-img-top{
-height: 200px;
-width: 280px;
+.texto-presentacion{
+    padding-top:300px;
+    color: #000;
 }
