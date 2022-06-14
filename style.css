@@ -47,7 +47,7 @@ form:focus-within{
 /* PRESENTACIÓN */
 
 .presentacion{
-background: url(./Recursos/IMG/img-sobremi/CristianGarmendia.jpg) no-repeat;
+background: url(./IMG/img-sobremi/CristianGarmendia.jpg) no-repeat;
 background-size: cover;
 height: 100%;
 min-height: 700px;
