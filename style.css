@@ -1,45 +1,45 @@
-
-
 /* BARRA DE NAVEGACION */
+body{
+    background-color: #EAEDED;
+}
 
-
-.navbar{
+.navbar {
     background-color: #000;
     padding: 0px;
 }
 
-.navbar .navbar-nav .nav-link:hover{
+.navbar .navbar-nav .nav-link:hover {
     background-color: #DC7633;
-	text-decoration: none;
-	border-radius: 5px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-ul{
-width: 50%;
-justify-content: center;
-color: #fff;
+ul {
+    width: 50%;
+    justify-content: center;
+    color: #fff;
 }
 
-span{
+span {
     background-color: #000;
     color: #DC7633;
 }
 
 /* Buscador */
 
-.boton{
+.boton {
     background-color: #000;
     color: #DC7633;
     border-color: #DC7633;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: #DC7633;
     border-color: #DC7633;
     color: #fff;
 }
 
-form:focus-within{
+form:focus-within {
     box-shadow: #DC7633;
 }
 
@@ -47,14 +47,61 @@ form:focus-within{
 /* PRESENTACIÓN */
 
 .presentacion{
-background: url(./IMG/img-sobremi/CristianGarmendia.jpg) no-repeat;
-background-size: cover;
-height: 100%;
-min-height: 700px;
-color: #fff;
+margin-top: 120px;
 }
 
-.texto-presentacion{
-    padding-top:300px;
+.img-presentacion{
+    height: 530px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .img-presentacion{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+/* TESTIMONIO */
+
+.carrusel {
+    margin-top: 20px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .carrusel {
+        width: 100%;
+    };
+}
+
+/* CURSOS */
+
+.cursos {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.border-warning{
     color: #000;
 }
+
+@media screen and (max-width: 600px) {
+    .cursos {
+        width: 100%;
+    };
+}
+
+/* FOOTER */
+
+/* footer{
+    margin-top: 20px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #DC7633;
+    width: 75%;
+    height: 100px;
+} */
