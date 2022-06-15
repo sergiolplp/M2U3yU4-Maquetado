@@ -1,25 +1,118 @@
-body{
-    background-color: gray;
-}
-
 /* BARRA DE NAVEGACION */
-
-.sticky-top-2{
-position: -webkit-sticky;
-position: sticky;
-top: 68px;
-z-index: 1030;
+body{
+    background-color: #EAEDED;
 }
 
+<<<<<<< HEAD
 /* SOBRE MI */
 
 
 .sobremi{
     background-image: url(./src/sobremi.jpg);
     height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+=======
+.navbar {
+    background-color: #000;
+    padding: 0px;
+>>>>>>> 4a167b1cc3eb4a12bad00a09b381d03d579e143f
 }
 
-.card-img-top{
-height: 200px;
-width: 280px;
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #DC7633;
+    text-decoration: none;
+    border-radius: 5px;
 }
+
+ul {
+    width: 50%;
+    justify-content: center;
+    color: #fff;
+}
+
+span {
+    background-color: #000;
+    color: #DC7633;
+}
+
+/* Buscador */
+
+.boton {
+    background-color: #000;
+    color: #DC7633;
+    border-color: #DC7633;
+}
+
+.boton:hover {
+    background-color: #DC7633;
+    border-color: #DC7633;
+    color: #fff;
+}
+
+form:focus-within {
+    box-shadow: #DC7633;
+}
+
+
+/* PRESENTACIÓN */
+
+.presentacion{
+margin-top: 120px;
+}
+
+.img-presentacion{
+    height: 530px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .img-presentacion{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+/* TESTIMONIO */
+
+.carrusel {
+    margin-top: 20px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .carrusel {
+        width: 100%;
+    };
+}
+
+/* CURSOS */
+
+.cursos {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.border-warning{
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .cursos {
+        width: 100%;
+    };
+}
+
+/* FOOTER */
+
+/* footer{
+    margin-top: 20px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #DC7633;
+    width: 75%;
+    height: 100px;
+} */
