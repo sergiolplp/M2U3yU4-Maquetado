@@ -1,9 +1,9 @@
 /* BARRA DE NAVEGACION */
-body{
+body {
     background-color: #EAEDED;
 }
 
-.navbar{
+.navbar {
     background-color: #000;
 }
 
@@ -36,6 +36,7 @@ span {
     background-color: #DC7633;
     border-color: #DC7633;
     color: #fff;
+    font-weight: bold;
 }
 
 form:focus-within {
@@ -45,17 +46,17 @@ form:focus-within {
 
 /* PRESENTACIÓN */
 
-.presentacion{
-margin-top: 120px;
+.presentacion {
+    margin-top: 120px;
 }
 
-.img-presentacion{
+.img-presentacion {
     height: 530px;
     width: 80%;
 }
 
 @media screen and (max-width: 600px) {
-    .img-presentacion{
+    .img-presentacion {
         height: 300px;
         width: 100%;
     }
@@ -64,40 +65,39 @@ margin-top: 120px;
 /* TESTIMONIO */
 
 .carrusel {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 80%;
 }
 
 @media screen and (max-width: 600px) {
     .carrusel {
         width: 100%;
-    };
+    }
+
+    ;
 }
 
-/* CURSOS */
+/* TALLERES */
 
-.cursos {
-    margin-top: 20px;
+.talleres {
+    margin-top: 50px;
     width: 80%;
 }
 
-.border-3{
-    color: #000; /* VER VER VER VER VER VER VER */
-}
-
-@media screen and (max-width: 600px) {
-    .cursos {
-        width: 100%;
-    };
-}
-
-.boton{
+.boton {
     background-color: #DC7633;
     color: #EAEDED;
     width: 100%;
 }
 
-.boton-otrostalleres{
+.boton-otrostalleres:hover {
+    background-color: #DC7633;
+    border-color: #A04000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.boton-otrostalleres {
     display: flex;
     margin-top: 20px;
     background-color: #DC7633;
@@ -108,13 +108,18 @@ margin-top: 120px;
     justify-content: center;
 }
 
-
+@media screen and (max-width: 600px) {
+    .cursos {
+        width: 100%;
+    }
+    ;
+}
 
 /* FORMULARIO */
 
-.titulo-formulario{
-    margin-top: 20px;
-text-align: center;
+.titulo-formulario {
+    margin-top: 50px;
+    text-align: center;
 }
 
 .formulario {
@@ -122,18 +127,19 @@ text-align: center;
     flex-direction: column;
     align-self: center;
     margin-top: 20px;
+    font-weight: 10px;
 }
 
 .placeholder {
     margin: 5px auto;
     background-color: #FBEEE6;
     color: #A04000;
+    font-weight: 10px;
     border-radius: 10px;
     text-align: center;
     width: 70%;
-    padding: 20px;
+    padding: 50px;
     border-color: #A04000;
-
 }
 
 .button {
@@ -156,13 +162,14 @@ text-align: center;
 @media screen and (max-width: 600px) {
     .formulario {
         width: 100%;
-    };
+    }
+    ;
 }
 
 /* FOOTER */
 
-footer{
-    margin-top: 20px;
+footer {
+    margin-top: 50px;
     background-color: #000;
     display: flex;
     text-align: center;
