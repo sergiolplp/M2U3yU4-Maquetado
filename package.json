@@ -1,27 +1,16 @@
 {
   "name": "m2u3yu4-maquetado",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "aos": "^2.3.4",
-    "classlist-polyfill": "^1.2.0",
-    "jquery": "^3.6.0",
-    "lodash.debounce": "^4.0.8",
-    "lodash.throttle": "^4.1.1",
-    "moment": "^2.29.3"
-  },
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergiolplp/M2U3yU4-Maquetado.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergiolplp/M2U3yU4-Maquetado/issues"
-  },
-  "homepage": "https://github.com/sergiolplp/M2U3yU4-Maquetado#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
